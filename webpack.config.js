@@ -8,7 +8,7 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"]
   },
-  entry: path.resolve(__dirname, "./src/client/main.js"),
+  entry: path.resolve(__dirname, "./src/client/main.jsx"),
   devServer: {
     contentBase: path.resolve(__dirname, "./dist")
   },
